@@ -1,5 +1,5 @@
-function distanceFromHqInBlocks(some value) {
-const hqLocation = 42;
-return Math.abs(someValue - hqLocation);
+function distanceFromHqInBlocks(pickupLocation) {
+const hqLocation = 43;
+return Math.abs(pickupLocation - hqLocation);
 }
 
