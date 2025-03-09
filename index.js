@@ -13,7 +13,5 @@ function distanceFromHqInFeet(pickupLocation) {
 }
 
 function distanceTravelledInFeet(start, destination){
-    let start = 42;
-    let desstination = 50;
     return Math.abs(destination -start) * 264
 }
