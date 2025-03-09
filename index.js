@@ -1,1 +1,5 @@
-// Code your solution in this file!
+function distanceFromHqInBlocks(some value) {
+const hqLocation = 42;
+return Math.abs(someValue - hqLocation);
+}
+
