@@ -11,3 +11,7 @@ function distanceFromHqInFeet(pickupLocation) {
 function distanceFromHqInFeet(pickupLocation) {
     return distanceFromHqInBlocks(pickupLocation) * 264;
 }
+
+function distanceTravelledInFeet(start, destination){
+    return Math.abs(destination -start) * 264
+}
